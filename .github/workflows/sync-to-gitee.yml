@@ -16,4 +16,4 @@ jobs:  # 定义要执行的任务
         SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_PRIVATE_KEY }}  # 引用您稍后配置的SSH私钥
       with:  # 传递给上述Action的参数
         # 【重要】请将 `autogen` 替换为您在Gitee上创建的仓库的实际名称！
-        destination-repo: git@gitee.com:jiaolonghuner/AutoGen.git
+        destination-repo: git@gitee.com:jiaolonghunter/AutoGen.git
