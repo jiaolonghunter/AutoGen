@@ -1,5 +1,10 @@
 name: Sync to Gitee  # 工作流名称，会在Actions页面显示
 
+# 添加以下三行，禁用邮件通知
+env:
+  ACTIONS_STEP_DEBUG: false
+  GITHUB_NOTIFICATIONS_ENABLED: false
+  
 on:  # 触发此工作流的条件
   push:  # 当有代码推送到以下分支时触发
     branches: [ main ]
